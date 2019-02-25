@@ -6,7 +6,17 @@
     <link href="css/default.css" rel="stylesheet" />
 </head>
 <body>
-    <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+    <div></div>
+    <script>
+        function numberSum() {
+            var total = 0;
+            for (var i = 117; i >= 11; i-=8) {
+                total += i;
+            }
+            return total;
+        }
+        document.write("The sum of numbers is:"+numberSum())
+        
+    </script>
 </body>
 </html>
